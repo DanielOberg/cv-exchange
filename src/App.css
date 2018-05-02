@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+
+.app {
+  background: url("/images/header.jpg") center / cover;
+  font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+.app .mdl-layout__header,
+.app .mdl-layout__drawer-button {
+  /* This background is dark, so we set text to white. Use 87% black instead if
+     your background is light. */
+  color: white;
+}
+
+.app hr {
+  max-width: 50px;
+  border-width: 3px;
+  border-color: #f05f40;
+  margin: 1.5rem auto;
+}
+
+.app h1 {
+  font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+.btn-primary {
+  background-color: #f05f40;
+  border-color: #f05f40;
+}
+
+.btn-xl {
+  padding: 1rem 2rem;
+}
+
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 300px;
+  font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+.mdl-layout-title {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+.mdl-layout__header-row .mdl-navigation__link {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+}
+.bg-primary {
+  background-color: #f05f40;
+}
+.bg-secondary {
+  background-color: #fff;
+}
+
+.light {
+  color: white;
+}
+
+hr.light {
+  color: white;
+  border-color: white;
+}
+
+.primary {
+  color: #f05f40;
+}

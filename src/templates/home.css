@@ -1,0 +1,30 @@
+.home .candidate-card-wide {
+  max-width: 50vw;
+  margin-top: 20vh;
+  margin-left: 20vw;
+}
+.home .none {
+  display: none;
+}
+.home .cv-search-card {
+  margin-top: 20vh;
+  margin-left: 10vw;
+  margin-bottom: 25vh;
+}
+
+.main-container {
+  min-height: 80vh;
+  padding: 4rem;
+}
+
+.main-container h2 {
+  text-align: center;
+}
+
+.home .cv-send-card {
+  margin: auto auto;
+}
+
+.home .mdl-card__supporting-text {
+  width: 100%;
+}
